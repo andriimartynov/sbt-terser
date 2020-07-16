@@ -12,3 +12,10 @@ libraryDependencies ++= Seq(
 )
 
 addSbtJsEngine("1.2.3")
+
+credentials += Credentials(
+  "GnuPG Key ID",
+  "gpg",
+  sys.env.getOrElse("GPG_PUBLIC_KEY", ""), // key identifier
+  "ignored" // this field is ignored; passwords are supplied by pinentry
+)
