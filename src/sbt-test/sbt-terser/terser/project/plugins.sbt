@@ -1,0 +1,1 @@
+addSbtPlugin("com.github.andriimartynov" % "sbt-terser" % sys.props("project.version"))
