@@ -1,0 +1,10 @@
+# Minify files.
+
+> webStage
+$ exists target/web/stage/javascripts/a.js
+$ exists target/web/stage/javascripts/a.min.js
+$ exists target/web/stage/javascripts/b.js
+$ exists target/web/stage/javascripts/b.min.js
+$ exists target/web/stage/javascripts/x.js
+$ exists target/web/stage/javascripts/x.min.js
+-$ exists target/web/terser/lib
