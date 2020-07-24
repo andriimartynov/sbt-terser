@@ -1,6 +1,7 @@
 lazy val `sbt-terser` = project in file(".")
 enablePlugins(SbtWebBase)
 description := "sbt-web plugin for minifying JavaScript files"
+homepage := Some(url("https://github.com/andriimartynov/sbt-terser"))
 organization := "com.github.andriimartynov"
 licenses += ("Apache-2.0", new URL("https://www.apache.org/licenses/LICENSE-2.0.txt"))
 
@@ -11,7 +12,7 @@ addSbtJsEngine("1.2.3")
 
 crossSbtVersions := Seq("1.2.8")
 
-crossScalaVersions := Seq("2.12.11")
+crossScalaVersions := Seq("2.12.12")
 
 credentials += Credentials(
   "GnuPG Key ID",
