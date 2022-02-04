@@ -1,6 +1,5 @@
 sbt-terser
 ==========
-[![Download](https://api.bintray.com/packages/andriimartynov/sbt-plugins/sbt-terser/images/download.svg)](https://bintray.com/andriimartynov/sbt-plugins/sbt-terser/_latestVersion)
 [![Build Status](https://travis-ci.org/andriimartynov/sbt-terser.svg)](https://travis-ci.org/andriimartynov/sbt-terser)
 [![Apache License V.2](https://img.shields.io/badge/license-Apache%20V.2-blue.svg)](https://github.com/andriimartynov/sbt-terser/blob/master/LICENSE)
 
